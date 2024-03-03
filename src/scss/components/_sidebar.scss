@@ -19,36 +19,41 @@
       stroke: white;
     }
   }
-  .logo-name {
-    display: flex;
-    gap: $gap-400;
-    padding: 0 1rem;
-    h1 {
-      color: hsl(224, 22%, 13%);
-    }
-  }
-  .page-links {
+  .logo-link-container {
     display: grid;
-    gap: $gap-400;
-    list-style: none;
-    padding: 1rem;
-    li {
-      a {
-        color: $clr-neutral-900;
+    gap: 1rem;
+    .logo-name {
+      display: flex;
+      gap: $gap-400;
+      padding: 0 1rem;
+      h1 {
+        color: hsl(224, 22%, 13%);
       }
-      &:hover {
-        text-decoration: none;
-        cursor: pointer;
-        svg path {
-          fill: $clr-primary-500;
-          stroke: white;
-        }
+    }
+    .page-links {
+      display: grid;
+      gap: $gap-400;
+      list-style: none;
+      padding: 1rem;
+      li {
         a {
-          color: $clr-primary-500;
+          color: $clr-neutral-900;
+        }
+        &:hover {
+          text-decoration: none;
+          cursor: pointer;
+          svg path {
+            fill: $clr-primary-500;
+            stroke: white;
+          }
+          a {
+            color: $clr-primary-500;
+          }
         }
       }
     }
   }
+
   .update {
     background-color: $clr-primary-500;
     color: $clr-neutral-700;
