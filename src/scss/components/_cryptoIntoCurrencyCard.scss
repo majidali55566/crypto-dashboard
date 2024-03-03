@@ -1,0 +1,19 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mediaQueries" as *;
+@use "../abstracts/mixin" as *;
+.cryptoIntoCurrency {
+  @media (max-width: 375px) {
+    display: grid;
+  }
+  @include flex($align-items: center, $justify-content: space-between);
+  gap: $gap-400;
+  border-radius: 1rem;
+  padding: 1.4rem;
+  background-color: $clr-neutral-100;
+  div[data-customgap="half"] {
+    gap: 0.5rem;
+  }
+  .currency-value {
+    color: $clr-neutral-800;
+  }
+}

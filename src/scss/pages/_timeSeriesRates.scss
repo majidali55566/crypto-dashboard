@@ -1,0 +1,14 @@
+@use "../abstracts/mediaQueries" as *;
+$border-radius-400: 1rem;
+$padding-400: 1rem;
+.time-series-historical-rates-container {
+  padding: 1.4rem;
+
+  @include md {
+    padding: 2rem;
+  }
+  .time-series-analysis {
+    display: grid;
+    gap: 1rem;
+  }
+}

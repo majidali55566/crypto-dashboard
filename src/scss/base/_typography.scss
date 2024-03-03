@@ -1,0 +1,17 @@
+@use "../abstracts/variables" as *;
+
+body {
+  font-size: $fs-400;
+  font-family: $ff;
+  font-weight: $fw-regular;
+}
+
+h1 {
+  font-size: $fs-800;
+}
+h2 {
+  font-size: $fs-700;
+}
+h3 {
+  font-size: $fs-600;
+}

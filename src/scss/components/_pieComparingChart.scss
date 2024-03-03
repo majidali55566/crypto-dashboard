@@ -1,0 +1,13 @@
+@use "../abstracts/variables" as *;
+@use "../pages/timeSeriesRates" as *;
+.pie-comparing-chart {
+  background-color: $clr-neutral-100;
+  padding: $padding-400;
+  border-radius: $border-radius-400;
+  height: 300px;
+  .custom-pie-chart-legend {
+    background-color: $clr-neutral-100;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+}

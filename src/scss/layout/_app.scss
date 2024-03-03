@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+// .app-container {
+//   .main-container {
+//     display: flex;
+//     .content {
+//       flex: 1;
+//       background-color: $theme-color;
+//     }
+//   }
+// }
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden; /* Prevent body from scrolling */
+  .app-container {
+    height: 100vh;
+    overflow: hidden; /* Prevent app-container from scrolling */
+    .main-container {
+      display: flex;
+      height: 100%;
+
+      .content {
+        flex-grow: 1;
+        background-color: $theme-color;
+        overflow-y: auto; /* Allow content to scroll */
+      }
+    }
+  }
+}

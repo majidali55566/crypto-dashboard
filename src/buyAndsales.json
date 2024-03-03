@@ -1,0 +1,338 @@
+{
+  "data": {
+    "all": [
+      {
+        "timestamp": "2021-01-01T12:00:00Z",
+        "buyPrice": 4000,
+        "sellPrice": 2400,
+        "totalAmount": 2400
+      },
+      {
+        "timestamp": "2021-01-02T12:00:00Z",
+        "buyPrice": 3000,
+        "sellPrice": 1398,
+        "totalAmount": 2210
+      },
+      {
+        "timestamp": "2021-01-03T12:00:00Z",
+        "buyPrice": 2000,
+        "sellPrice": 9800,
+        "totalAmount": 2290
+      },
+      {
+        "timestamp": "2021-01-04T12:00:00Z",
+        "buyPrice": 2780,
+        "sellPrice": 3908,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "2021-01-05T12:00:00Z",
+        "buyPrice": 1890,
+        "sellPrice": 4800,
+        "totalAmount": 2181
+      },
+      {
+        "timestamp": "2021-01-06T12:00:00Z",
+        "buyPrice": 2390,
+        "sellPrice": 3800,
+        "totalAmount": 2500
+      },
+      {
+        "timestamp": "2021-01-07T12:00:00Z",
+        "buyPrice": 3490,
+        "sellPrice": 4300,
+        "totalAmount": 2100
+      },
+      {
+        "timestamp": "2021-03-21T12:00:00Z",
+        "buyPrice": 4500,
+        "sellPrice": 2200,
+        "totalAmount": 2600
+      }
+    ],
+    "1month": [
+      {
+        "timestamp": "2021-02-20T12:00:00Z",
+        "buyPrice": 4100,
+        "sellPrice": 2000,
+        "totalAmount": 2100
+      },
+      {
+        "timestamp": "2021-02-21T12:00:00Z",
+        "buyPrice": 3800,
+        "sellPrice": 1800,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "2021-02-22T12:00:00Z",
+        "buyPrice": 3500,
+        "sellPrice": 1600,
+        "totalAmount": 1800
+      },
+      {
+        "timestamp": "2021-03-21T12:00:00Z",
+        "buyPrice": 4200,
+        "sellPrice": 2100,
+        "totalAmount": 2300
+      },
+      {
+        "timestamp": "2022-01-01T12:00:00Z",
+        "buyPrice": 4000,
+        "sellPrice": 2400,
+        "totalAmount": 2400
+      },
+      {
+        "timestamp": "2022-01-02T12:00:00Z",
+        "buyPrice": 3000,
+        "sellPrice": 1398,
+        "totalAmount": 2210
+      },
+      {
+        "timestamp": "2022-01-03T12:00:00Z",
+        "buyPrice": 2000,
+        "sellPrice": 9800,
+        "totalAmount": 2290
+      },
+      {
+        "timestamp": "2022-01-04T12:00:00Z",
+        "buyPrice": 2780,
+        "sellPrice": 3908,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "2022-01-05T12:00:00Z",
+        "buyPrice": 1890,
+        "sellPrice": 4800,
+        "totalAmount": 2181
+      },
+      {
+        "timestamp": "2022-01-06T12:00:00Z",
+        "buyPrice": 2390,
+        "sellPrice": 3800,
+        "totalAmount": 2500
+      },
+      {
+        "timestamp": "2022-01-07T12:00:00Z",
+        "buyPrice": 3490,
+        "sellPrice": 4300,
+        "totalAmount": 2100
+      },
+      {
+        "timestamp": "2022-01-08T12:00:00Z",
+        "buyPrice": 3100,
+        "sellPrice": 3200,
+        "totalAmount": 2900
+      },
+      {
+        "timestamp": "2022-01-09T12:00:00Z",
+        "buyPrice": 4200,
+        "sellPrice": 3400,
+        "totalAmount": 3300
+      },
+      {
+        "timestamp": "2022-01-10T12:00:00Z",
+        "buyPrice": 3900,
+        "sellPrice": 2900,
+        "totalAmount": 2800
+      }
+    ],
+    "6months": [
+      {
+        "timestamp": "2022-01-07T12:00:00Z",
+        "buyPrice": 3490,
+        "sellPrice": 4300,
+        "totalAmount": 2100
+      },
+      {
+        "timestamp": "2022-01-08T12:00:00Z",
+        "buyPrice": 3100,
+        "sellPrice": 3200,
+        "totalAmount": 2900
+      },
+      {
+        "timestamp": "2022-01-09T12:00:00Z",
+        "buyPrice": 4200,
+        "sellPrice": 3400,
+        "totalAmount": 3300
+      },
+      {
+        "timestamp": "2022-01-10T12:00:00Z",
+        "buyPrice": 3900,
+        "sellPrice": 2900,
+        "totalAmount": 2800
+      },
+      {
+        "timestamp": "Timestamp 1",
+        "buyPrice": 4000,
+        "sellPrice": 2400,
+        "totalAmount": 2400
+      },
+      {
+        "timestamp": "Timestamp 2",
+        "buyPrice": 3000,
+        "sellPrice": 1398,
+        "totalAmount": 2210
+      },
+      {
+        "timestamp": "Timestamp 3",
+        "buyPrice": 2000,
+        "sellPrice": 9800,
+        "totalAmount": 2290
+      },
+      {
+        "timestamp": "Timestamp 4",
+        "buyPrice": 2780,
+        "sellPrice": 3908,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "Timestamp 5",
+        "buyPrice": 1890,
+        "sellPrice": 4800,
+        "totalAmount": 2181
+      },
+      {
+        "timestamp": "Timestamp 6",
+        "buyPrice": 2390,
+        "sellPrice": 3800,
+        "totalAmount": 2500
+      },
+      {
+        "timestamp": "Timestamp 7",
+        "buyPrice": 3490,
+        "sellPrice": 4300,
+        "totalAmount": 2100
+      }
+    ],
+    "1year": [
+      {
+        "timestamp": "2022-01-01T12:00:00Z",
+        "buyPrice": 4000,
+        "sellPrice": 2400,
+        "totalAmount": 2400
+      },
+      {
+        "timestamp": "2022-01-02T12:00:00Z",
+        "buyPrice": 3000,
+        "sellPrice": 1398,
+        "totalAmount": 2210
+      },
+      {
+        "timestamp": "2022-01-03T12:00:00Z",
+        "buyPrice": 2000,
+        "sellPrice": 9800,
+        "totalAmount": 2290
+      },
+      {
+        "timestamp": "2022-01-04T12:00:00Z",
+        "buyPrice": 2780,
+        "sellPrice": 3908,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "2022-01-05T12:00:00Z",
+        "buyPrice": 1890,
+        "sellPrice": 4800,
+        "totalAmount": 2181
+      },
+      {
+        "timestamp": "2020-03-21T12:00:00Z",
+        "buyPrice": 3000,
+        "sellPrice": 1500,
+        "totalAmount": 1600
+      },
+      {
+        "timestamp": "2020-03-22T12:00:00Z",
+        "buyPrice": 3200,
+        "sellPrice": 1700,
+        "totalAmount": 1800
+      },
+      {
+        "timestamp": "2020-03-23T12:00:00Z",
+        "buyPrice": 3400,
+        "sellPrice": 1900,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "2021-03-21T12:00:00Z",
+        "buyPrice": 3500,
+        "sellPrice": 1800,
+        "totalAmount": 2000
+      }
+    ],
+    "ytd": [
+      {
+        "timestamp": "2022-01-07T12:00:00Z",
+        "buyPrice": 3490,
+        "sellPrice": 4300,
+        "totalAmount": 2100
+      },
+      {
+        "timestamp": "2022-01-08T12:00:00Z",
+        "buyPrice": 3100,
+        "sellPrice": 3200,
+        "totalAmount": 2900
+      },
+      {
+        "timestamp": "2022-01-09T12:00:00Z",
+        "buyPrice": 4200,
+        "sellPrice": 3400,
+        "totalAmount": 3300
+      },
+      {
+        "timestamp": "2022-01-10T12:00:00Z",
+        "buyPrice": 3900,
+        "sellPrice": 2900,
+        "totalAmount": 2800
+      },
+      {
+        "timestamp": "2021-01-01T12:00:00Z",
+        "buyPrice": 4000,
+        "sellPrice": 2400,
+        "totalAmount": 2400
+      },
+      {
+        "timestamp": "2021-01-02T12:00:00Z",
+        "buyPrice": 3000,
+        "sellPrice": 1398,
+        "totalAmount": 2210
+      },
+      {
+        "timestamp": "2021-01-03T12:00:00Z",
+        "buyPrice": 2000,
+        "sellPrice": 9800,
+        "totalAmount": 2290
+      },
+      {
+        "timestamp": "2021-01-04T12:00:00Z",
+        "buyPrice": 2780,
+        "sellPrice": 3908,
+        "totalAmount": 2000
+      },
+      {
+        "timestamp": "2021-01-05T12:00:00Z",
+        "buyPrice": 1890,
+        "sellPrice": 4800,
+        "totalAmount": 2181
+      },
+      {
+        "timestamp": "2021-01-06T12:00:00Z",
+        "buyPrice": 2390,
+        "sellPrice": 3800,
+        "totalAmount": 2500
+      },
+      {
+        "timestamp": "2021-01-07T12:00:00Z",
+        "buyPrice": 3490,
+        "sellPrice": 4300,
+        "totalAmount": 2100
+      },
+      {
+        "timestamp": "2021-03-21T12:00:00Z",
+        "buyPrice": 4500,
+        "sellPrice": 2200,
+        "totalAmount": 2600
+      }
+    ]
+  }
+}

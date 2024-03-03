@@ -1,0 +1,72 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mediaQueries" as *;
+.sidebar {
+  background-color: $clr-neutral-100;
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  @include md {
+    width: 255px;
+  }
+
+  justify-content: space-between;
+  .active {
+    color: $clr-primary-500 !important;
+    svg path {
+      fill: $clr-primary-500;
+      stroke: white;
+    }
+  }
+  .logo-name {
+    display: flex;
+    gap: $gap-400;
+    padding: 0 1rem;
+    h1 {
+      color: hsl(224, 22%, 13%);
+    }
+  }
+  .page-links {
+    display: grid;
+    gap: $gap-400;
+    list-style: none;
+    padding: 1rem;
+    li {
+      a {
+        color: $clr-neutral-900;
+      }
+      &:hover {
+        text-decoration: none;
+        cursor: pointer;
+        svg path {
+          fill: $clr-primary-500;
+          stroke: white;
+        }
+        a {
+          color: $clr-primary-500;
+        }
+      }
+    }
+  }
+  .update {
+    background-color: $clr-primary-500;
+    color: $clr-neutral-700;
+    font-size: $fs-300;
+    font-weight: $fw-medium;
+    display: grid;
+    justify-items: center;
+    padding: 1rem;
+    border-radius: 1rem;
+    gap: $gap-400;
+    .image-keep-safe {
+      display: grid;
+      justify-items: center;
+    }
+    h2,
+    h3 {
+      color: $clr-neutral-100;
+      font-weight: $fw-bold;
+    }
+  }
+}

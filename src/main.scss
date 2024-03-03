@@ -1,0 +1,25 @@
+//abstracts
+@use "./scss/abstracts/variables";
+@use "./scss/abstracts/mixin";
+@use "./scss/abstracts/mediaQueries";
+@use "./scss/abstracts/utilities";
+
+//base
+@use "./scss/base/reset";
+@use "./scss/base/typography";
+// Layout
+@use "./scss/layout/app";
+//    Components
+@use "./scss/components/sidebar";
+@use "./scss/components/topbar";
+@use "./scss/components/cryptoIntoCurrencyCard";
+@use "./scss/components/marketOverview";
+@use "./scss/components/addBalances";
+@use "./scss/components/recentActivities";
+@use "./scss/components/team";
+@use "./scss/components/bitcoinLineGraph";
+@use "./scss/components/ethBarChart";
+@use "./scss/components/pieComparingChart";
+//Pages
+@use "./scss/pages/dashboard";
+@use "./scss/pages/timeSeriesRates";

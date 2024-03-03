@@ -1,0 +1,52 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mixin" as *;
+@use "../pages/dashboard" as dashboard;
+@use "../abstracts/mediaQueries" as *;
+
+.market-overview {
+  background-color: $clr-neutral-100;
+  border-radius: dashboard.$border-radius-400;
+  padding: dashboard.$padding-450;
+  display: grid;
+  gap: 2rem;
+
+  .card-top-bar {
+    display: grid;
+    gap: 2rem;
+    align-items: center;
+    h1 {
+      font-weight: $fw-medium;
+      color: $clr-neutral-800;
+    }
+    @include lg {
+      gap: 3rem;
+      @include flex($align-items: center, $justify-content: space-between);
+    }
+    .time-period-container {
+      gap: 0.5rem;
+      @include md {
+        gap: 1.5rem;
+      }
+      button {
+        font-size: $fs-300;
+        padding: 0.38rem 0.87rem;
+        background-color: $clr-neutral-100;
+        border-radius: 0.7rem;
+        border: 1px solid #aeb6cf;
+      }
+      .selectedButton {
+        background-color: $clr-primary-500;
+        color: $clr-neutral-100;
+        border: none;
+        box-shadow: 0px 6px 16px 0px rgba(27, 192, 237, 0.06);
+      }
+    }
+  }
+  .line-chart-container {
+    height: 200px;
+
+    @include xl {
+      height: 290px;
+    }
+  }
+}

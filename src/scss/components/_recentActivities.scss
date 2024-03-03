@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mediaQueries" as *;
+@use "../pages/dashboard" as dash;
+.recent-activities {
+  background-color: $clr-neutral-100;
+  padding: dash.$padding-450;
+  border-radius: dash.$border-radius-400;
+
+  display: grid;
+  grid-column: span 2;
+  gap: 1rem;
+  @include md {
+    grid-column: span 3;
+  }
+  h1 {
+    color: $clr-neutral-800;
+    font-weight: $fw-medium;
+  }
+  .coin-activities-container {
+    display: flex;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+    background-color: #f0ffff94;
+    gap: 0.5rem;
+    justify-content: space-between;
+    align-items: center;
+    color: $clr-neutral-400;
+    font-size: $fs-500;
+  }
+}

@@ -1,0 +1,27 @@
+@use "../abstracts/variables" as *;
+@use "../pages/dashboard" as dashboard;
+@use "../abstracts/mediaQueries" as *;
+.add-balances {
+  @media (min-width: map-get($breakpoints,"md")) and (max-width: map-get($breakpoints,"lg")) {
+    grid-column: 2 / 4;
+    grid-row: 2/3;
+  }
+  @media (max-width: 375px) {
+    grid-column: span 2;
+  }
+  border-radius: dashboard.$border-radius-400;
+  padding: dashboard.$padding-450;
+  display: grid;
+
+  background-color: $clr-neutral-100;
+
+  h1 {
+    color: $clr-neutral-800;
+    font-weight: $fw-medium;
+  }
+  .balance-amount {
+    color: $clr-secondary-400;
+    font-size: 2.1rem;
+    font-weight: $fw-bold;
+  }
+}

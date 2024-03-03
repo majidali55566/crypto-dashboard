@@ -1,0 +1,74 @@
+@use "../abstracts/variables" as *;
+@use "../abstracts/mediaQueries" as *;
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1.5rem;
+  .name-time {
+    display: flex;
+    align-items: center;
+    gap: $gap-400;
+    button {
+      border: 0;
+      width: 2rem;
+      height: 2rem;
+
+      &:hover {
+        svg {
+          fill: $clr-primary-500;
+        }
+      }
+      @include md {
+        display: none;
+      }
+    }
+    .hello-user {
+      display: grid;
+      @media (max-width: 418px) {
+        display: none;
+      }
+    }
+  }
+  .search-bar {
+    position: relative;
+    gap: 0.5rem;
+    img {
+      position: absolute;
+      left: 1rem;
+    }
+    input[type="text"] {
+      display: none;
+      font-size: $fs-400;
+      background-color: $clr-neutral-100;
+      padding: 0.8rem;
+      padding-left: 3rem;
+      border: 0;
+      border-radius: 0.5rem;
+      @include md {
+        display: flex;
+        width: 10rem;
+      }
+      @include lg {
+        width: 15rem;
+      }
+    }
+  }
+  .notification {
+    padding: 0.7rem;
+    background-color: $clr-neutral-100;
+    border-radius: 0.5rem;
+  }
+  .user-profile {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    img {
+      width: 3rem;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 3rem;
+      border-radius: 1rem;
+    }
+  }
+}

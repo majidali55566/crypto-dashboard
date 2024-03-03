@@ -1,0 +1,38 @@
+@use "../abstracts/variables" as *;
+@use "../pages/dashboard" as dash;
+@use "../abstracts/mediaQueries" as *;
+.team {
+  background-color: $clr-neutral-100;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  grid-column: span 2;
+  padding: dash.$padding-450;
+  border-radius: dash.$border-radius-400;
+  font-size: $fs-400;
+  @include lg {
+    grid-column: span 1;
+  }
+  h1 {
+    color: $clr-neutral-800;
+    font-weight: $fw-medium;
+  }
+  .title {
+    font-size: $fs-600;
+    font-weight: $fw-medium;
+    color: $clr-neutral-800;
+  }
+  .team-admin-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 1rem;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .admins {
+    background-color: hsl(var(--clr-secondary-hsl-600) / 0.1);
+  }
+  .teams {
+    background-color: hsl(164 100 44 / 0.2);
+  }
+}

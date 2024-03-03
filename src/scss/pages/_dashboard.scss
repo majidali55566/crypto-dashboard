@@ -1,0 +1,32 @@
+@use "../abstracts/mediaQueries" as *;
+$border-radius-400: 1rem;
+$padding-450: 1.4rem;
+
+.dashboard {
+  flex-wrap: wrap;
+  padding: 1.4rem;
+  padding-top: 0;
+  @include md {
+    padding: 2rem;
+  }
+  .layout {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    @include md {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+    gap: 1rem;
+    @include lg {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .market-overview {
+      grid-column: span 2;
+      @include md {
+        grid-column: span 3;
+      }
+    }
+  }
+}
